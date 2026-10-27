@@ -1,0 +1,10 @@
+
+
+streamlit
+pypdf
+numpy
+faiss-cpu
+torch
+sentence-transformers
+transformers
+sentencepiece
