@@ -1,0 +1,45 @@
+%%writefile .gitignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Jupyter and Google Colab
+.ipynb_checkpoints/
+.colab/
+
+# Uploaded documents
+*.pdf
+
+# Generated vector indexes
+*.faiss
+*.index
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
